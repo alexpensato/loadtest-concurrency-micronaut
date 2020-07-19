@@ -1,0 +1,11 @@
+micronaut:
+  application:
+    name: loadtest-concurrency-micronaut
+datasources:
+  default:
+    url: jdbc:postgresql://localhost:5432/loadtestdb
+    driverClassName: org.postgresql.Driver
+    username: pensato
+    password: pensato
+    schema-generate: CREATE_DROP
+    dialect: POSTGRES
